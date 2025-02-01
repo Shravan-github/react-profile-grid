@@ -1,0 +1,70 @@
+.profile-list-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 1.2rem;
+
+}
+
+.profile-item-details {
+    text-align: center;
+    box-shadow: 10px 10px 10px black;
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+}
+
+.left-pane {
+    display: flex;
+    flex: 0.6;
+    /* background-color: brown; */
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 1rem;
+    margin: 0px !important;
+}
+
+.right-pane {
+    display: flex;
+    flex: 0.4;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    /* background-color: chocolate; */
+
+}
+
+.profile {
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+}
+
+.label {
+    font-weight: 500;
+    line-height: 1rem;
+    margin: 0px !important;
+    text-align: start !important;
+    color: #666666;
+}
+
+.value-class {
+    font-size: 1.5rem;
+    font-weight: 500;
+    line-height: 1rem;
+    margin: 0px !important;
+    text-align: start !important;
+}
+
+
+/* New CSS for two panels using CSS Grid */
+.container {
+    display: grid;
+    grid-template-columns: 1fr; /* Adjust the number of columns as needed */
+    gap: 20px; /* Adjust the gap between panels as needed */
+}
+
+.panel {
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}

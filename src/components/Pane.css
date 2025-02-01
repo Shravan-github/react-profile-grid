@@ -1,0 +1,17 @@
+.pane-container {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 1.2rem;
+}
+
+.pane-left {
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+
+.pane-right {
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
